@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./responsible.html" name="nishant 
+    p" target="_blank">
+        <fieldset>
+            <legend>Personal information</legend>
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br></br>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br></br>
+            <label for="DOB" >DOB:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br></br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="123456-789" required>
+            <br></br>
+            <label for="address">Address</label>
+            <textarea name="address" id="address" placeholder="Enter your address" required></textarea>
+            <br></br>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            <br></br>
+            <label for="attempt">attempt</label>
+            <input type="number" name="attempt" id="attempt" min="1" max="5" required>
+            <br></br>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" id="gender" value="Male" required>Male
+            <input type="radio" name="gender" id="gender" value="female" required>Female
+            <br></br>
+            <label for="check">choose your vehicle:</label>
+            <input type="checkbox" name="vehicle" id="01" value="Car">Car
+            <input type="checkbox" name="vehicle" id="01" value="bus">Bus
+            <input type="checkbox" name="vehicle" id="01" value="bike">Bike
+            <br></br>
+            <label for="sel">select your language:</label>
+            <select name="sel" id="sel">
+                <option value="select your language">select your language</option>
+                <option value="Python">Python</option>
+                <option value="java">Java</option>
+                <option value="c++">C++</option>
+                <option value="Javascript">Javascript</option>
+            </select>
+            <br></br>
+            <label for="file">Upload your file:</label>
+            <input type="file" name="file" id="file" required>
+            <br></br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" onclick="alert('Reset!')">
+            
+
+            
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
